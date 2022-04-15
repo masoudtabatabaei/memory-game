@@ -13,7 +13,15 @@ const getData = () => [
     {imageSrc: "./images/js.png" , name: "javascript"},
     {imageSrc: "./images/json-file.png" , name: "json-file"},
     {imageSrc: "./images/structure.png" , name: "structure"},
-    {imageSrc: "./images/typescript.png" , name: "typescript"}
+    {imageSrc: "./images/typescript.png" , name: "typescript"},
+    {imageSrc: "./images/coding.png" , name: "coding"},
+    {imageSrc: "./images/github.png" , name: "github"},
+    {imageSrc: "./images/typescript.png" , name: "typescript"},
+    {imageSrc: "./images/docker.png" , name: "docker"},
+    {imageSrc: "./images/js.png" , name: "javascript"},
+    {imageSrc: "./images/structure.png" , name: "structure"},
+    {imageSrc: "./images/json-file.png" , name: "json-file"},
+    {imageSrc: "./images/internet.png" , name: "internet"},
 ];
 
 // randomize data
