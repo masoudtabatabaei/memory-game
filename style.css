@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.playground {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.playground .card-container {
+  flex: 1 0 25%;
+  height: 140px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.playground .card-container .card {
+  background-color: #dddddd;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.playground img {
+  width: 100%;
+  max-width: 70px;
+}
