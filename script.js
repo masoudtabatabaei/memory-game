@@ -29,6 +29,7 @@ const randomizeData = () => {
   return getData().sort(() => Math.random() - 0.5);
 }
 
+// render game cards
 const createCards = () => {
   let playgroundCards = '';
   randomizeData().forEach(card => {
