@@ -4,12 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .playground {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .playground .card-container {
